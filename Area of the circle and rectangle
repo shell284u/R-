@@ -1,0 +1,18 @@
+# A R program to calculate
+# area of a circle
+
+aOfcircle = function(radius){
+  area = pi*radius^2
+  return(area)
+}
+
+print(aOfcircle(3))
+print(aOfcircle(5))
+
+aOfrect = function(length, width) {
+ area = length*width
+ return(area)
+}
+
+print(aOfrect(2,3))
+print(aOfrect(5,8))
